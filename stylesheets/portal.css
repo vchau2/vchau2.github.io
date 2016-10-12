@@ -1,8 +1,9 @@
 ul{
-font-family: verdana;
+font-family: 'Varela Round', sans-serif;
 list-style: none;
 }
 a{
+  font-family: 'Varela Round', sans-serif;
 text-decoration: none;
 color: orange;
 
