@@ -1,0 +1,26 @@
+/*should i add the eric meyer css reset?*/
+
+section {
+ display: block;
+ font-family: 'Quicksand', sans-serif;
+ background-color: pink;
+}
+header {
+  padding: 35px;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: auto;
+}
+
+.posts {
+  padding: 35px;
+  width: 800px;
+  background-color: #blue;
+}
+
+/*this one wont work idk */
+.face {
+  padding: 100px;
+}
