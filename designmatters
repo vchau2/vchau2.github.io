@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Design Matters: The Tattoo Machine</title>
+		<link href="styles.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Courgette|Kreon" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="container">
+			<header>
+				<img src="images/header.png" width="900">
+			</header>
+
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="past.html">Past</a></li>
+					<li><a href="#">Present</a></li>
+					<li><a href="#">Future</a></li>
+					<li><a href="#">Sources</a></li>
+				</ul>
+			</nav>
+
+			<section>
+				<article>
+					<img src="images/machine.png" width="200">
+
+				</article>
+
+				<article class="mainblock">
+					<center><h2>Past</h2></center>
+					<center><img src="images/button.png" width="100px" class="button"></center>
+					<h3>3250BC</h3>
+					<p>The first tattoos ever discovered were from a Tyrolean Iceman called Ötzi who died around 3250BC. The preserved body was found in Italy preserved in the Ötztal Alps, with 61 tattooed markings all over his body, mostly of sets of lines and circles. The tattoos were speculated to have been made with pigments from ash, and a sharp object. Tattoos have existed in almost every civilization from as far back as 3250BC, but the first automated machine emerged in the late 1800s.</p>
+					<center><img src="images/button.png" width="100px" class="button"></center>
+					<h3>1891</h3>
+					<p>The first automated tattoo machine was invented by Samuel O-Reilly in 1891. He modeled the rotary system that the machine used after Thomas Edison’s electric pen machine- patented as “stencil pen” in 1876. The stencil pen was used as a duplicated device, but Samuel modified the mechanism to include ink. His new patent was for the tube and needle component that created an ink reservoir. This new machine made tattooing faster and less painful “This led to the first spike in tattooing as a populist trend and set the stage for the beginning of a revolution in the esthetics of tattooing”</p>
+				</article>
+
+				<article>
+					<img src="images/skull.png" width="200px">
+				</article>
+			</section>
+
+			<footer>
+				<p>Victoria Chau Des 117</p>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,247 @@
+/* uncomment the css reset to activate it */
+
+/************
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+********************/
+
+body {
+	font-family: Arial, sans-serif;
+	background-color:#e4d1ba;
+}
+
+#container {
+	width: 1020px;
+	margin: auto;
+
+}
+
+header {
+	background-color: #f2e9df;
+	padding: 40px 20px;
+	text-align: center
+}
+
+/***************** Navigation Rules *****************/
+
+/*****************
+basic pattern: float left.
+Comment this pattern out and uncomment others to try them.
+******************/
+
+/****** nav {
+	background-color:#73A176;
+}
+
+nav ul {
+	overflow: hidden;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	background-color:#B2D8B5;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 20px;
+}
+
+***/
+/*****************
+centered links pattern: inline-block.
+to center links, add text-align:center to the UL rule
+and in the LI rule tell them to display:inline-block
+The gaps between the links are created by the extra spaces in the HTML.
+To fix this, put them all on one line in the HTML.
+******************/
+/**
+nav {
+	background-color:#e4d1ba;
+}
+
+nav ul {
+	overflow: hidden;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	display: block;
+	background-color:#e4d1ba;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 20px;
+}
+
+***/
+/*****************
+Evenly distributed links pattern: float left.
+
+To evenly distribute links, set the width of the list items
+in this case 1020/5 = 204px.
+
+Set the anchor tags to text-align: center;
+
+******************/
+
+
+nav {
+	font-family: 'Courgette', cursive;
+	background-color:#e4d1ba;
+}
+
+nav ul {
+	overflow: hidden;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	float: left;
+	width: 204px;
+}
+
+nav ul li a {
+	display: block;
+	background-color:#c49a6c;
+	text-decoration: none;
+	color: #183f7f;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+}
+
+
+/*****************
+Evenly distributed links with borders pattern: float left.
+
+To add borders, add the border you want on the anchor tags.
+
+add a rule to remove borders on the last link...
+
+******************/
+
+/***** remove to uncomment this...
+nav {
+	background-color:#73A176;
+}
+
+nav ul {
+	overflow: hidden;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	float: left;
+	width: 204px;
+}
+
+nav ul li a {
+	display: block;
+	background-color:#B2D8B5;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	border-right: 2px solid #000;
+}
+
+nav ul li:last-of-type a {
+	border: none;
+}
+
+remove to uncomment this... *****/
+
+
+/*****************
+Basic grid:
+The section contains the floats
+Each article has padding built in to create gutters.
+******************/
+
+
+section {
+	overflow: hidden; /* to contain floated articles */
+}
+h2 {
+	color: #183f7f;
+	font-size: 50px;
+}
+article {
+	font-family: 'Kreon', serif;
+	float: left;
+	width: 200px;
+	padding: 20px;
+	margin-top: 50px;
+}
+.mainblock {
+	width: 500px;
+	background-color: #f2e9df;
+}
+.mainblock img {
+text-align: center;
+}
+
+footer {
+	/* no clear needed in the footer since the section is containing the floats*/
+	background-color:#c49a6c;
+	color:#183f7f;
+	font-family: 'Kreon', serif;
+	padding: 20px;
+}
