@@ -1,0 +1,58 @@
+
+.page {
+  width: 90%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+h1 {
+  font-weight: bold;
+  font-family: 'Corben', cursive;
+  font-size: 4.5em;
+  color: white;
+  margin-bottom: 0;
+}
+hr {
+  width: 500px;
+  margin-bottom: 60px;
+}
+header img {
+  width: 200px;
+}
+
+.col {
+  width: 500px;
+  display: block;
+  margin-left: 30%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 750px) {
+  .col {
+    width: 100%;
+    display: block;
+    margin-left: 15px;
+  }
+  hr {
+    width: 95%;
+  }
+  header img {
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  h1 {
+    font-family: 'Corben', cursive;
+    font-size: 1.75em;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 0px;
+  }
+}
+img {
+  width: 100%;
+}
