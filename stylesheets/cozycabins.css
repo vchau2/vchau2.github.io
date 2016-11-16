@@ -17,8 +17,13 @@ hr {
   width: 500px;
   margin-bottom: 60px;
 }
+header {
+  display: table;
+  width: 100%;
+}
 header img {
   width: 200px;
+  display: table-cell;
 }
 
 .col {
@@ -55,4 +60,31 @@ header img {
 }
 img {
   width: 100%;
+}
+
+/***************** Navigation *****************/
+
+nav {
+  font-family: 'Corben', cursive;
+  display: table-cell;
+}
+nav ul {
+	overflow: hidden;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	float: right;
+	width: 204px;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
 }
