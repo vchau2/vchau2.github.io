@@ -45,18 +45,14 @@ footer{
   width:100%;
   text-align: center;
   margin-top: 5%;
+  color: gray;
 }
 footer a {
   color: black;
   font-family: 'Roboto', sans-serif;
   list-style-type: none;
   text-decoration: none;
-}
-footer h6 {
-  color: black;
-  font-family: 'Roboto', sans-serif;
-  list-style-type: none;
-  text-decoration: none;
+  color: gray;
 }
 
 header {
