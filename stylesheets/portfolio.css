@@ -52,6 +52,12 @@ footer a {
   list-style-type: none;
   text-decoration: none;
 }
+footer h6 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
 
 header {
   display: table;
